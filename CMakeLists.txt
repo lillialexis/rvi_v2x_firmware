@@ -156,3 +156,4 @@ add_executable(rvi_v2x_firmware ${SOURCE_FILES})
 
 include_directories(/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Atmel/usr/include)
 add_definitions(-DOSX)
+add_definitions(-DXMEGA=1)
