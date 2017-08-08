@@ -93,3 +93,8 @@ V2X_Firmware.old/
 # the included "V2X project setup" pdf for instructions on managing ASF modules.
 V2X_Firmware/src/[Cc]onfig/
 
+#############
+## JetBrains
+#############
+/.idea/workspace.xml
+/.idea/libraries
