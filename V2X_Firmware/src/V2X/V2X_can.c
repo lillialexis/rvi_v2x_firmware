@@ -189,7 +189,7 @@ void CAN_control_init (char * responce_buffer){
 		if (strcmp_P(responce_buffer, PSTR("ELM327 v1.3a")) == 0) {
 			menu_send_CTL();
 			usb_tx_string_P(PSTR("CAN Responding\r\n>"));
-			CAN_sequence_state = CAN_state_idle;
+			CAN_sequence_state = CAN_state_idle; // Lilli note - Maybe change to 'initialized'? do more here...
 			CAN_in_command = false;
 			job_clear_timeout(SYS_CAN);
 		}
