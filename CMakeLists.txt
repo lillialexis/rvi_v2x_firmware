@@ -129,6 +129,8 @@ set(SOURCE_FILES
         V2X_Firmware/src/V2X/V2X_can.h
         V2X_Firmware/src/V2X/V2X_control.c
         V2X_Firmware/src/V2X/V2X_control.h
+        V2X_Firmware/src/V2X/V2X_car_state_check.c
+        V2X_Firmware/src/V2X/V2X_car_state_check.h
         V2X_Firmware/src/V2X/V2X_eeprom.c
         V2X_Firmware/src/V2X/V2X_eeprom.h
         V2X_Firmware/src/V2X/V2X_gsm.c
